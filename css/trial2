@@ -1,0 +1,164 @@
+h3 {
+  line-height: 1;
+  margin: 0px;
+
+}
+
+.change {
+  text-align: center;
+}
+
+.wildlife {
+  text-align: center;
+  font-family: Oswald;
+  text-align: center;
+  background-color: #364EB9;
+}
+
+.mbl {
+  float: left;
+}
+
+.card1 {
+  display: inline-block;
+  list-style-type: none;
+  width: 300px;
+  height: 300px;
+}
+
+.card2 {
+  display: inline-block;
+  list-style-type: none;
+  width: 300px;
+  height: 300px;
+}
+
+.card3 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card4 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card5 {
+  display: inline-block;
+  width: 250px;
+  height: 300px;
+}
+
+.card6 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card7 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card8 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card9 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card10 {
+  display: inline-block;
+  width: 250px;
+  height: 300px;
+}
+
+.card11 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card12 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card13 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card14 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card15 {
+  display: inline-block;
+  width: 250px;
+  height: 300px;
+}
+
+.card16 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card17 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card18 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card19 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card20 {
+  display: inline-block;
+  width: 250px;
+  height: 300px;
+}
+
+.card21 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card22 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.card23 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.app {
+  margin-left: 10px;
+}

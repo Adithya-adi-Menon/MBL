@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Molecular Biodiversity Lab</title>
+  <link rel="stylesheet" href="css\index.css">
+  <link rel="icon" href="img\mbl.ico">
+  <link rel="stylesheet" href="css\contact.css">
+  <<link rel="stylesheet" href="css\map.css">
+  <script src="js\map.js" charset="utf-8"></script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">
+  <!-- Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js\index.js ">
+  </script>
+  <!--end-->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css\contact.css">
+</head>
+
+<body>
+  <div class="wildlife">
+    <img class="mbl" src="img\mbl.png" alt="MBL" height="130px" width="200px">
+    <h1>Molecular Biodiversity Lab</h1>
+  </div>
+
+
+  <div class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="http://www.govtartscollegeooty.org.in">Gac Ooty</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Contact.html">Contact <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://pdfs.semanticscholar.org/87ec/26c32e320e3caa1a76f798e4dbddbaf3cd9c.pdf?_ga=2.148359733.328419163.1584779783-1827821668.1584779783">Source</a>
+              <a class="dropdown-item" href="img\Medulla Type.png">Medulla Types</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="contributes.html">Contributors</a>
+            </div>
+          </li>
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+  <h3>Location</h3>
+  <!--The div element for the map -->
+  <div id="map"></div>
+  <!-- Replace the value of the key parameter with your own API key. -->
+  <script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJYKAToHpGuoszjyVlowD2pxAqwM7F3xY&callback=initMap">
+  </script>
+  <section class="banner-bottom-w3ls-agileinfo">
+    <div class="container">
+      <h3 class="tittle text-center">Contact Us</h3>
+
+      <div class="row inner-sec-wthree-agileits">
+        <div class="col-md-8 mail_form">
+          <form action="mailto:someone@example.com" method="post">
+            <span class="input input--chisato">
+              <input class="input__field input__field--chisato" name="Name" type="text" id="input-13" placeholder="Name" required="" />
+              <label class="input__label input__label--chisato" for="input-13">
+
+              </label>
+            </span>
+            <span class="input input--chisato">
+              <input class="input__field input__field--chisato" name="Email" type="email" id="input-14" placeholder="Email" required="" />
+              <label class="input__label input__label--chisato" for="input-14">
+                <span class="input__label-content input__label-content--chisato" data-content="Email"></span>
+              </label>
+            </span>
+            <span class="input input--chisato">
+              <input class="input__field input__field--chisato" name="Subject" type="text" id="input-15" placeholder="Subject" required="" />
+              <label class="input__label input__label--chisato" for="input-15">
+                <span class="input__label-content input__label-content--chisato" data-content="Subject"></span>
+              </label>
+            </span>
+            <textarea name="Message" placeholder="Your comment here..." required=""></textarea>
+            <input type="submit" value="Submit">
+          </form>
+
+        </div>
+
+
+        <div class="col-md-4 contact_grids_info">
+          <div class="contact_grid">
+            <div class="contact_grid_right">
+              <h4>Department of Zoology & Wildlife Biology</h4>
+              <h4>Government Arts College,</h4>
+              <h4>Ooty – 643002, Nilgiris</h4>
+            </div>
+          </div>
+
+          <div class="clearfix"> </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <div id=mapppp>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Molecular Biodiversity Lab</title>
+  <link rel="stylesheet" href="E:\mbl\css\index.css">
+  <link rel="icon" href="E:\mbl\img\mbl.ico">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"></script>
+  <!--start-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="E:\mbl\js\index.js ">
+  </script>
+  <!--end-->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wildlife">
+    <img class="mbl" src="E:\mbl\img\mbl.png" alt="MBL" height="130px" width="200px">
+    <h1>Molecular Biodiversity Lab</h1>
+    <h3>Department of Zoology & Wildlife Biology</h3>
+    <h3>Government Arts College, Ooty – 643002, Nilgiris</h3>
+
+  </div>
+  <div class="navigation">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark indigo">
+
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">Navbar</a>
+
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="basicExampleNav">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+        </ul>
+        <!-- Links -->
+
+        <form class="form-inline">
+          <div class="md-form my-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          </div>
+        </form>
+      </div>
+      <!-- Collapsible content -->
+
+    </nav>
+    <!--/.Navbar-->
+  </div>
+  <div class="app">
+    <h3 class="change">An application to identify the hair samples of Wild Animal</h3>
+    <div class="card1">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\tiger.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\tiger.html" class="btn btn-primary">Tiger</a>
+        </div>
+      </div>
+    </div>
+    <div class="card2">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\junglecat.png" height="200px" width="200px" alt="Card image cap">
+          <a href="#" class="btn btn-primary">Jungle Cat</a>
+        </div>
+      </div>
+    </div>
+    <div class="card3">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\leopardcat.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\leopardcat.html" class="btn btn-primary">Leopard Cat</a>
+        </div>
+      </div>
+    </div>
+    <div class="card4">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\leopard.png" height="200px" width="200px" alt="Card image cap">
+          <a href="#" class="btn btn-primary">Leopard</a>
+        </div>
+      </div>
+    </div>
+    <div class="card5">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\sambar.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\sambar.html" class="btn btn-primary">Sambar Deer</a>
+        </div>
+      </div>
+    </div>
+    <div class="card6">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\spotted.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\spotteddeer.html" class="btn btn-primary">Spotted Deer</a>
+        </div>
+      </div>
+    </div>
+    <div class="card7">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\mouse.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\mouse deer.html" class="btn btn-primary">Mouse Deer</a>
+        </div>
+      </div>
+    </div>
+    <div class="card8">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\barking.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\barkingdeer.html" class="btn btn-primary">Barking Deer</a>
+        </div>
+      </div>
+    </div>
+    <div class="card9">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\cow.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\cow.html" class="btn btn-primary">Cow</a>
+        </div>
+      </div>
+    </div>
+    <div class="card10">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\buffalo.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\buffalo.html" class="btn btn-primary">Buffalo</a>
+        </div>
+      </div>
+    </div>
+    <div class="card11">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\horse.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\Horse.html" class="btn btn-primary">Horse</a>
+        </div>
+      </div>
+    </div>
+    <div class="card12">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\donkey.png" height="200px" width="200px" alt="Card image cap">
+          <a href="#" class="btn btn-primary">Donkey</a>
+        </div>
+      </div>
+    </div>
+    <div class="card13">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\dog.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\dog.html" class="btn btn-primary">Dog</a>
+        </div>
+      </div>
+    </div>
+    <div class="card14">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\cat.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\cat.html" class="btn btn-primary">Cat</a>
+        </div>
+      </div>
+    </div>
+    <div class="card15">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\hare.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\hp hare.html" class="btn btn-primary">Black napped hare</a>
+        </div>
+      </div>
+    </div>
+    <div class="card16">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\gaur.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\gaur.html" class="btn btn-primary">Gaur</a>
+        </div>
+      </div>
+    </div>
+    <div class="card17">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\loris.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\lorris.html" class="btn btn-primary">Slender Loris</a>
+        </div>
+      </div>
+    </div>
+    <div class="card18">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\wildboar.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\boar.html" class="btn btn-primary">Wild Boar</a>
+        </div>
+      </div>
+    </div>
+    <div class="card19">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\rodent.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\rodent.html" class="btn btn-primary">Rodent</a>
+        </div>
+      </div>
+    </div>
+    <div class="card20">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\sheep.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\sheep.html" class="btn btn-primary">Sheep</a>
+        </div>
+      </div>
+    </div>
+    <div class="card21">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\goat.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\goat.html" class="btn btn-primary">Goat</a>
+        </div>
+      </div>
+    </div>
+    <div class="card22">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\rabbit.png" height="200px" width="200px" alt="Card image cap">
+          <a href="#" class="btn btn-primary">Rabbit</a>
+        </div>
+      </div>
+    </div>
+    <div class="card23">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <img class="card-img-top" src="E:\mbl\img\rat.png" height="200px" width="200px" alt="Card image cap">
+          <a href="E:\mbl\Html\rat.html" class="btn btn-primary">Rat</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

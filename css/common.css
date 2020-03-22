@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 10%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
+.commoncard1 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top:100px;
+}
+
+.commoncard2 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.commoncard3 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+.commoncard4{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.whole-contain {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.whole-contain1 {
+  display: inline-block;
+}
+
+.whole-contain2 {
+  display: inline-block;
+}
+.whole-contain3{
+  display: inline-block;
+}
+h2{
+  text-align: center;
+}
